@@ -13,13 +13,14 @@ public class SortUisngLambda {
         employeeList.add(e1);
         employeeList.add(e2);
 
-//        Collections.sort(employeeList, (x1, x2)  -> x2.getAge() -x1.getAge());
+        Collections.sort(employeeList, (x1, x2)  -> x2.getAge() -x1.getAge());
 
         for(Employee e: employeeList)
             System.out.println(e);
 
     }
 }
+
 
 class Employee{
     private String firstName;
